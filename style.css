@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url('img/bg.png')no-repeat center center/cover;
+    padding-bottom: 20%;
+}
+
+  /* Navigation Bar Start*/
+
+.nav img{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+ nav img{
+    display: flex;
+    margin-top: 18px;
+ }
+  nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    padding-left: 480px;
+    gap: 30px;
+    font-size: 1.7rem;
+    color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  nav ul li a{
+    text-decoration: none;
+    padding-left: 8px;
+    color: yellow;
+  }
+
+  nav ul li a:hover{
+    color: blueviolet;
+  }
+
+.right .my-order {
+    width: 200%;
+    height: 7vh;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 9px;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    gap: 120px;
+    cursor: pointer;
+    border: 1px solid white;
+    float: right;
+    gap: 12px;
+}
+.right{
+    padding-left: 250px;
+}
+
+  /* Navigation Bar End */
+
+  /* Content Container Start */
+.content-container{
+    margin-top: 100px;
+    padding-left: 300px;
+}
+.content-container .para1{
+    margin-top: 10px;
+    font-size: 5.4rem;
+    color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content-container .para2{
+    padding-left: 130px;
+    font-size: 4.2rem;
+    color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content-container .para3{
+    padding-left: 60px;
+    font-size: 4.5rem;
+    color: yellow;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my-submit{
+    margin-top: 20px;
+    font-size: 2.1rem;
+    width: 30%;
+    height: 10vh;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.menu{
+    padding-left: 150px;
+}
+
+  /* Content Container End */
+   
+      /* Scrool Bar Start */
+.scrool img{
+    margin-top: 1px;
+    float: right;
+    padding-right: 25px;
+}
+      /* Scrool Bar End */
